@@ -11,6 +11,22 @@
   font-size: 32px;
   font-weight: 600;
 }
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons > span:last-child {
+  position: relative;
+}
+
+.screen__notification--dots {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
 }
